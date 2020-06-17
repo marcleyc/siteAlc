@@ -1732,20 +1732,20 @@ section.lazy-placeholder:after {
   color: #82786e !important;
 }
 .cid-rUOOap9mol {
-  padding-top: 75px;
-  padding-bottom: 30px;
-  background-color: #ffffff;
+  padding-top: 90px;
+  padding-bottom: 15px;
+  background-color: #cebfaf;
 }
 .cid-rUOOap9mol .line {
-  background-color: #149dcc;
-  color: #149dcc;
+  background-color: #82786e;
+  color: #82786e;
   align: center;
   height: 2px;
   margin: 0 auto;
 }
 .cid-rUOOap9mol .section-text {
   padding: 2rem 0;
-  text-align: left;
+  text-align: center;
 }
 .cid-rUOOap9mol .inner-container {
   margin: 0 auto;
