@@ -2955,6 +2955,52 @@ section.lazy-placeholder:after {
   padding-bottom: 30px;
   background-color: #2e2e2e;
 }
+.cid-s2bn9DPp6S {
+  padding-top: 90px;
+  padding-bottom: 0px;
+  background-image: url("../../../assets/images/mbr-1920x1056.jpg");
+}
+.cid-s2bn9DPp6S H1 {
+  color: #7f1933;
+}
+.cid-s2bn9DPp6S .mbr-text,
+.cid-s2bn9DPp6S .mbr-section-btn {
+  color: #ff3366;
+}
+.cid-s2bnQJ289g {
+  padding-top: 45px;
+  padding-bottom: 90px;
+  background-color: #cebfaf;
+}
+.cid-s2bnQJ289g .card-box {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+.cid-s2bnQJ289g h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+}
+.cid-s2bnQJ289g p {
+  color: #767676;
+  text-align: left;
+}
+.cid-s2bnQJ289g .card-wrapper {
+  position: relative;
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  transition: box-shadow 0.3s;
+}
+.cid-s2bnQJ289g .card-wrapper:hover {
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s;
+}
+.cid-s2bnQJ289g .card-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #635a51;
