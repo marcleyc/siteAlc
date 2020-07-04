@@ -1052,7 +1052,8 @@
               "color": "#232323"
             },
             ".icon-block,.icon-block .icon-block__title": {
-              "color": "#7f1933"
+              "color": "#7f1933",
+              "text-align": "center"
             },
             "P": {
               "text-align": "left"
