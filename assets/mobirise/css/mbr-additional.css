@@ -1990,11 +1990,11 @@ section.lazy-placeholder:after {
 .cid-rUOOap9mol {
   padding-top: 90px;
   padding-bottom: 15px;
-  background-color: #cebfaf;
+  background-color: #7f1933;
 }
 .cid-rUOOap9mol .line {
-  background-color: #3e3b14;
-  color: #3e3b14;
+  background-color: #e4d295;
+  color: #e4d295;
   align: center;
   height: 2px;
   margin: 0 auto;
@@ -2002,6 +2002,7 @@ section.lazy-placeholder:after {
 .cid-rUOOap9mol .section-text {
   padding: 2rem 0;
   text-align: center;
+  color: #ffffff;
 }
 .cid-rUOOap9mol .inner-container {
   margin: 0 auto;
