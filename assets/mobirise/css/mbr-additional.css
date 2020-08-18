@@ -2067,6 +2067,18 @@ section.lazy-placeholder:after {
 .cid-rSJrCVdDJx .user_desk {
   text-align: left;
 }
+.cid-s82SknpwXP {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #cccccc, #767676);
+}
+.cid-s82SknpwXP .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ffffff;
+}
+.cid-s82SknpwXP .social-list a:focus {
+  text-decoration: none;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #767676;
@@ -5065,20 +5077,17 @@ section.lazy-placeholder:after {
 .cid-s3kEPgpqBv textarea.form-control {
   min-height: 188px;
 }
-.cid-s7WqJId54l {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background: linear-gradient(0deg, #cebfaf, #82786e);
+.cid-s82SW5BSg9 {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #767676, #cccccc);
 }
-.cid-s7WqJId54l .mbr-iconfont-social {
+.cid-s82SW5BSg9 .mbr-iconfont-social {
   font-size: 32px;
   color: #ffffff;
 }
-.cid-s7WqJId54l .social-list a:focus {
+.cid-s82SW5BSg9 .social-list a:focus {
   text-decoration: none;
-}
-.cid-s7WqJId54l H2 {
-  color: #232323;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -5536,6 +5545,18 @@ section.lazy-placeholder:after {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+.cid-s82S8sNnfi {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #767676, #b2ccd2);
+}
+.cid-s82S8sNnfi .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ffffff;
+}
+.cid-s82S8sNnfi .social-list a:focus {
+  text-decoration: none;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
@@ -6389,6 +6410,18 @@ section.lazy-placeholder:after {
   color: #767676;
   text-align: left;
 }
+.cid-s82RGKWGz9 {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #767676, #cebfaf);
+}
+.cid-s82RGKWGz9 .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ffffff;
+}
+.cid-s82RGKWGz9 .social-list a:focus {
+  text-decoration: none;
+}
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;
   background: #767676;
@@ -6847,4 +6880,16 @@ section.lazy-placeholder:after {
   .cid-s82wbRxeSe .card-img span {
     font-size: 40px !important;
   }
+}
+.cid-s82RYtZZag {
+  padding-top: 60px;
+  padding-bottom: 45px;
+  background: linear-gradient(0deg, #cccccc, #767676);
+}
+.cid-s82RYtZZag .mbr-iconfont-social {
+  font-size: 32px;
+  color: #ffffff;
+}
+.cid-s82RYtZZag .social-list a:focus {
+  text-decoration: none;
 }
