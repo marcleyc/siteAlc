@@ -20,7 +20,7 @@
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
-  
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>  
   
 </head>
 <body>
@@ -63,7 +63,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/p">web templates free download</a></section><section once="footers" class="cid-s1ljnuUFlH" id="footer6-4o">
+<section class="engine"><a href="https://mobirise.info/u">bootstrap html templates</a></section><section once="footers" class="cid-s1ljnuUFlH" id="footer6-4o">
 
     
 
@@ -80,33 +80,28 @@
 
 <section class="mbr-section content6 cid-spj2yPiyH5" id="content6-4q">
     
-     
-    
     <div class="container">
-        <div class="media-container-row">
-            <div class="col-12 col-md-8">
-                <div class="media-container-row">
-                    <div class="mbr-figure" style="width: 95%;">
-                      <img src="assets/images/publicacao1-598x448.jpg" alt="Mobirise" title="">  
-                    </div>
-                    <div class="media-content">
-                        <div class="mbr-section-text">
-                            <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                               <strong>Make your own website in a few clicks!</strong> Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. Mobirise Website Builder creates responsive, retina and <em>mobile friendly websites</em> in a few clicks. Mobirise is one of the easiest website development tools available today.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+        <div id="app">
+          <div class="mx-auto" style="width: 700px;">
+          <div class="card" style="align-content: center;" id="imgtop">
+            <img class="card-img-top" src="assets/images/mbr-1014x760.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">{{titulo}}</h5>
+              <p>{{chamada}} </p>
+                <div v-if="!mostrar"> <button v-on:click="mostrar = !mostrar" class="btn btn-outline-primary">Ler mais</button> </div>
+                <div v-if="mostrar">  {{texto}}   
+                  <div><button v-on:click="mostrar = false" class="btn btn-outline-primary">Ler menos</button> </div>
+                </div>       
+                
+                <p style="font-size: 12px; text-align: right;">Data:{{dia}} | fonte: {{fonte}}</li>
             </div>
-        </div>
-    </div>
+          </div>
+        </div></div>
+      </div>    
+    
 </section>
 
 <section class="cid-spoEiBHmU3" id="social-buttons2-4s">
-
-    
-
-    
 
     <div class="container">
         <div class="media-container-row">
@@ -135,7 +130,23 @@
     </div>
 </section>
 
-
+<script>
+    new Vue({
+        el:'#app',
+        data:{
+            dia:'12/02/2021', 
+            fonte:'dre.pt',
+            mostrar:false,
+            titulo:'Alteração do regime jurídico de entrada, permanência, saída e afastamento de estrangeiros do território nacional (Decreto-Lei n.º 14/2021, de 12 de fevereiro)',
+            chamada:'O decreto-lei altera o regime jurídico de entrada, permanência, saída e afastamento de estrangeiros do território nacional. O que vai mudar?',
+            texto:'Com este, passam a ser considerados os seguintes valores: Transferência de capitais no montante igual ou superior a 1,5 milhões de euros (atualmente € 1 000 000); Transferência de capitais no montante igual ou superior a € 500 000, que seja aplicado em atividades de investigação desenvolvidas por instituições públicas ou privadas de investigação científica, integradas no sistema científico e tecnológico nacional (atualmente € 350 000); Transferência de capitais no montante igual ou superior a € 500 000, destinados à aquisição de unidades de participação em fundos de investimento (atualmente € 350 000); Transferência de capitais no montante igual ou superior a € 500 000, destinados à constituição de uma sociedade comercial com sede em território nacional (atualmente € 350 000); A aquisição de bens imóveis de valor igual ou superior a € 500 000 apenas é permitida quando as habitações se situem nas Regiões Autónomas dos Açores e da Madeira ou nos territórios do interior (atualmente não há limitação regional). Quando entra em vigor?<br> Este decreto-lei entra em vigor no dia 01 de janeiro de 2022.',
+        },
+        methods: {
+           metodo(){return 'Fruta:' + this.frutas},
+           metodo2(indice){return 'Fruta:' + this.frutas[indice]}
+       }
+    })
+</script>   
   <script src="assets/web/assets/jquery/jquery.min.js"></script>
   <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
